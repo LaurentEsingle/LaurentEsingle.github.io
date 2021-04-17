@@ -22,7 +22,7 @@ title: vQuery Free Version
 email: laurent.esingle1@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease.
-  A convenient tool for Data Analysts, Data Engineers, Business Analysts, Developers.
+  A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers.
   It also provides a no-code interface for non-technical users.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
