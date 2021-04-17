@@ -1,0 +1,57 @@
+---
+layout: page
+hide_hero: true
+---
+
+# vQuery installation and setup
+
+**Note:** *for a Product tour and instructional videos please visit:* [vQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
+
+<br>
+
+vQuery runs in a docker container. A container platform is needed to host the application, such as docker or kubernetes.  
+
+Get the image from dockerhub: [https://hub.docker.com/repository/docker/vquery/vquery-free](https://hub.docker.com/repository/docker/vquery/vquery-free)
+
+or
+
+Download the image with the following docker command: ```docker pull vquery/vquery-free:latest```
+
+There are many ways to set up vQuery, especially in an enterprise context where security, high availability and scalability are needed. In this guide we will focus on the installation of the free version of vQuery which is more suited for personal use.
+
+**Requirements:**
+
+- Operating system: Windows, Linux or Mac OS
+- Docker (or any container platform that can run Docker images)
+- Computer memory: depends on the size of the files to process. 16Gb is a good start.
+- Recommended Web Browsers: Chrome, Edge
+
+**Installation steps:**
+
+- Download and install Docker
+- Configure Docker to host Linux containers (if installing on Windows)
+- download vQuery image:   ```docker pull vquery/vquery-free:latest```
+
+**Configure and run vQuery:**
+
+vQuery runs on port 8866 by default.
+
+Two volumes can be mounted:
+
+- one for your workspace: every file you generate through the application will be stored in it.
+- one for any storage attached to your computer that you would like to access from vQuery (i.e network share)
+
+Examples:
+
+- if you want to quickly test vQuery you can run:   ```docker run --name vquery-free -d vquery/vquery-free:latest```
+- for more information please visit   ```https://hub.docker.com/repository/docker/vquery/vquery-free```
+
+**Connect to vQuery:**
+
+How you connect to vQuery will mostly depend on the location of the machine running vQuery container. In the simplest scenario - running the container on your computer - you can acess the application at following url:
+
+```http://localhost:8866/```
+
+When connecting to the URL for the first time, you will be prompted to set a new password. If you did not map a local folder you will be greeted by a warning asking you to do so.
+
+It is important to map a volume as you may lose your data (data files, queries, connections, credentials) if the container is destroyed.

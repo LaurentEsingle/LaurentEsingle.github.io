@@ -1,0 +1,9 @@
+
+- name: Databases
+  link: /databases/
+- name: Big data
+  link: /datafiles/
+- name: Charts
+  link: /charts/
+- name: about
+  link: /about/

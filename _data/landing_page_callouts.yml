@@ -1,0 +1,30 @@
+style: is-light
+height: is-small
+items:
+  - title: Database Query
+    subtitle: On Premise or in the Cloud
+    icon: fa-database
+    description: >
+      vQuery comes with several connectors out of the box
+
+      You just have to setup your connection 
+    call_to_action_name: Learn more
+    call_to_action_link: /databases/
+  - title: Big Data Files Query
+    subtitle: Local, Network or Cloud files
+    icon: fa-copy
+    description: >
+      Access data using a no-code interface, pandas or SQL
+
+      Several file formats and protocols are available
+    call_to_action_name: Learn more
+    call_to_action_link: /datafiles/
+  - title: Charts
+    subtitle: Generate interactive charts
+    icon: fa-chart-area
+    description: >
+      Charts can be generated using a no-code interface
+
+      or scripts using common libraries
+    call_to_action_name: Learn more
+    call_to_action_link: /charts/
