@@ -50,23 +50,25 @@ The amount of data displayed in the data grid of the user interface at any given
 In summary:
 ```File (3000000 rows) --> Application memory (10000 rows) --> User Interface (100 rows at a time)```
 
-The size of the file that can be opened (see File tab help), ```Sample Rows``` and ```Rows per page``` are all settable in the settings. 
+File sizes limit, ```Sample Rows``` and ```Rows per page``` parameters are adjustable in the settings.
 
 **So how can a user extract the information he wants if only a sample of the file is loaded into the application?**
 
-First of all, in the previous example, if ```Sample Rows``` is set to 3 millions, then the whole file will be loaded into memory.However this is not always possible as files sizes can be larger that the memory available to the application.
+First of all, in the previous example, if ```Sample Rows``` is set to 3 millions, then the whole file will be loaded into memory. However this is not always possible as files sizes can be larger that the memory available to the application.
 
 The suggested approach, is to filter or aggregate data so that they can fit in memory and vQuery has been designed around that principle.
 
-Let's suppose our file contains 3 millions rows of information related to cars sold during the last 10 years in France. Since vQuery allows to directly query the file, the user could issue a query to select only the information his intrested in. For example:
+Let's suppose our file contains 3 millions rows of information related to cars sold during the last 10 years in France. Since vQuery allows to directly query the file, the user could issue a query to select only the information he needs. For example:
 
 ```information about cars sold to married couples aged over 50 in Laval city during the first 3 months of year 2016```
 
-Such a query could return a small subset of the file, i.e: 5000 rows, which could then not only fit in the application memory, but also match the information the user was looking for in its entirety. Using aggregation usually return even smaller number of rows. Which usually what we want, a meaningful subset of a large set of data that we can easily process and display with charts or tables.
+Such a query would return a small subset of the file - i.e: 5000 rows - which could not only fit in the application memory, but also match the information the user was looking for in its entirety.
+
+Aggregations usually return even a smaller number of rows, which in most cases is what the user wats: a meaningful subset of a large set of data that can easily be processed and displayed with charts or tables.
 
 **Loading, exploration, data manipulation**
 
-The user does not always know exactly what information a given file contains and how that information is formatted. He usually goes through a sequence of steps described below:
+The user does not always know exactly what information a given file contains and how that information is formatted. He often goes through the sequence of steps described below:
 
 - *Data exploration:* when a file is open the first time (and only a sample is loaded into memory), the user - with the help of the data exploration panel - has access to statistical and datatypes information that can give him a good idea of the content of the whole file.
 He can issue several queries to confirm his assumptions even if he cannot load the whole file in memory. Each time he issues a query, that query is directly executed again the data file.

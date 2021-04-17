@@ -5,5 +5,7 @@
   link: /datafiles/
 - name: Charts
   link: /charts/
+- name: Download
+  link: /download/
 - name: about
   link: /about/

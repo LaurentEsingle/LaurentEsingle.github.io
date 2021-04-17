@@ -19,7 +19,7 @@ Keep in mind that the purpose of vQuery is to extract data, not to insert, updat
 
 In order to query a database first go to the "Connections" tab and configure a connection using the available connectors. The connection tab provides dedicated help/instructions for each connector.
 
-The following database systems are supported. They can be accessed on premise or in the cloud:
+The following database systems are currently supported. They can be accessed on premise or in the cloud:
 
 - Microsoft SQL Server
 - Mysql
