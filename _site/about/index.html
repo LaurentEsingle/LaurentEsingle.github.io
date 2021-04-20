@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>About vQuery | vQuery Free Version</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="About vQuery" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease. A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers. It also provides a no-code interface for non-technical users." />
+<meta property="og:description" content="vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease. A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers. It also provides a no-code interface for non-technical users." />
+<link rel="canonical" href="http://localhost:4000/about/" />
+<meta property="og:url" content="http://localhost:4000/about/" />
+<meta property="og:site_name" content="vQuery Free Version" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="About vQuery" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"http://localhost:4000/about/","headline":"About vQuery","description":"vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease. A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers. It also provides a no-code interface for non-technical users.","name":"vQuery Free Version","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                vQuery Free Version
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <a href="/databases/" class="navbar-item ">Databases</a>
+                    
+                
+                    
+                    <a href="/datafiles/" class="navbar-item ">Big data</a>
+                    
+                
+                    
+                    <a href="/charts/" class="navbar-item ">Charts</a>
+                    
+                
+                    
+                    <a href="/download/" class="navbar-item ">Download</a>
+                    
+                
+                    
+                    <a href="/about/" class="navbar-item is-active">about</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">About vQuery</h1>
+            <p class="subtitle is-3">By Laurent Esingle</p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-12">
+                    
+                    
+                    
+                    
+                    
+<div class="content">
+    <p>I started this project because I could not find a simple, free and easy to deploy application that could let me connect to various database systems and query big data files effortlessly. It was intended for personal use only.</p>
+
+<p>But with time I added more features and decided to make it available to others.</p>
+
+<p><strong>Differences between the FREE and FULL versions</strong></p>
+
+<p>This free version of the application is easy to deploy, on a single machine (i.e Laptop) but wih one application user only.</p>
+
+<p>The full version is more suited for enterprise/multi-users deployment scenarios as it includes the following additional features:</p>
+
+<ul>
+  <li>multiple users</li>
+  <li>SSL configuration</li>
+  <li>Ability to configure and connect to a data server for better scalability (process larger sets of data):
+    <ul>
+      <li>Under the hood vQuery uses DASK, a Python parallel computing framework that enables Big data analytics</li>
+      <li>The full version has a companion container image (vQuery-data) which acts as a data server</li>
+      <li>With the Full version of vQuery, the application server (vQuery container image) can be setup on one machine and the data server (vQuery-data container image) on another</li>
+      <li>Whith the Free version, everything is integrated in a single container image (vQuery-free), which limits its ability to scale. Consequently the following limitations are set:
+        <ul>
+          <li>File size limit for CSV, Parquet, ORC, JSON, HDF5:  10Gb</li>
+          <li>File size limit for Excel: 2GB</li>
+          <li>Maximum size of sample data:  100000 rows (see “Big data” tab for more information)</li>
+          <li>Maximum size of data retrieved per query from a database: 100000</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Databases connectors for the free version are limited to:
+    <ul>
+      <li>Cassandra</li>
+      <li>MySql</li>
+      <li>MongoDB</li>
+      <li>Postgres</li>
+      <li>Microsoft SQL Server</li>
+      <li>MariaDB</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Roadmap for the Free version:</strong></p>
+
+<ul>
+  <li>Oracle database connector</li>
+  <li>Undo feature in script editors using keyboard shortcuts (i.e: CTRL+Z)</li>
+  <li>Code completion in script editors</li>
+</ul>
+
+<p><strong>vQuery-Free support</strong></p>
+
+<p>For features requests or to report issues and bugs:</p>
+
+<ul>
+  <li>If you have a github account please visit the following page: <a href="https://vqueryfree.com/issues">https://vqueryfree.com/issues</a></li>
+  <li>otherwise feel free to send an email to: <em>vquery@outlook.com</em></li>
+</ul>
+
+<p><strong>If you are interested in learning more about vQuery you can use the links below:</strong></p>
+
+<ul>
+  <li>
+    <p>My email: <em>laurent.esingle1@outlook.com</em></p>
+  </li>
+  <li>
+    <p>My developer page on Github: <a href="https://github.com/LaurentEsingle">https://github.com/LaurentEsingle</a></p>
+  </li>
+  <li>
+    <p>Twitter: <a href="https://twitter.com/vQuery_Free">@v_Query</a></p>
+  </li>
+  <li>
+    <p>To see vQuery in action please visit: <a href="https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ">vQuery Youtube Channel</a></p>
+  </li>
+</ul>
+
+<p><strong>Credits</strong></p>
+
+<p>This application uses open source components. A few of them are listed below:</p>
+
+<ul>
+  <li>jupyter notebook:  <a href="https://jupyter.org/">https://jupyter.org/</a></li>
+  <li>Voila:  <a href="https://github.com/voila-dashboards/voila">https://github.com/voila-dashboards/voila</a></li>
+  <li>ipymonaco:  <a href="https://sodennis.github.io/ipymonaco/">https://sodennis.github.io/ipymonaco/</a></li>
+  <li>ipyaggrid:  <a href="https://dgothrek.gitlab.io/ipyaggrid/">https://dgothrek.gitlab.io/ipyaggrid/</a></li>
+  <li>qgrid:  <a href="https://github.com/quantopian/qgrid">https://github.com/quantopian/qgrid</a></li>
+  <li>plotly:  <a href="https://plotly.com/python/plotly-express/">https://plotly.com/python/plotly-express/</a></li>
+  <li>dask:  <a href="https://dask.org/">https://dask.org/</a></li>
+</ul>
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/LaurentEsingle" class="link">© Laurent Esingle - 2021</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
