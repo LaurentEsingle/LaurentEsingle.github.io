@@ -11,11 +11,11 @@ hide_hero: true
 
 vQuery runs in a docker container. A container platform is needed to host the application, such as docker or kubernetes.  
 
-Get the image from dockerhub: [https://hub.docker.com/repository/docker/vquery/vquery-free](https://hub.docker.com/repository/docker/vquery/vquery-free)
+Get the image from dockerhub: ***Link will be available starting Friday, April 23rd, 2021***
 
 or
 
-Download the image with the following docker command: ```docker pull vquery/vquery-free:latest```
+Download the image with the following docker command: ***Link will be available starting Friday, April 23rd, 2021***
 
 There are many ways to set up vQuery, especially in an enterprise context where security, high availability and scalability are needed. In this guide we will focus on the installation of the free version of vQuery which is more suited for personal use. For more information on the differences between the free version and the full version please visit "About" tab.
 
@@ -30,7 +30,7 @@ There are many ways to set up vQuery, especially in an enterprise context where 
 
 - Download and install Docker
 - Configure Docker to host Linux containers (if installing on Windows)
-- download vQuery image:   ```docker pull vquery/vquery-free:latest```
+- download vQuery image:   ***Link will be available starting Friday, April 23rd, 2021***
 
 **Configure and run vQuery:**
 
@@ -46,8 +46,6 @@ The following volumes can be mounted:
 If you want to quickly test vQuery you can run:
 
 - ```docker run --name vquery-free -d vquery/vquery-free:latest```
-
-For more information please visit: [https://hub.docker.com/repository/docker/vquery/vquery-free](https://hub.docker.com/repository/docker/vquery/vquery-free)
 
 **Connect to vQuery:**
 

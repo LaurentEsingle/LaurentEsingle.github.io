@@ -3,7 +3,7 @@ layout: page
 hide_hero: true
 ---
 
-# Wording with data
+# Working with data
 
 **Note:** *for a Product tour and instructional videos please visit:* [vQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
 
