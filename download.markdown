@@ -55,6 +55,6 @@ How you connect to vQuery will mostly depend on the location of the machine runn
 
 ```http://localhost:8866/```
 
-When connecting to the URL for the first time, you will be prompted to set a new password. If you did not map a local folder you will be greeted by a warning asking you to do so.
+When connecting to the URL for the first time, you will be prompted to set a new password for the admin user. If you did not map a local folder you will be greeted by a warning asking you to do so.
 
 It is important to map a volume as you may lose your data (data files, queries, connections, credentials) if the container is destroyed.
