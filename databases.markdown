@@ -21,12 +21,12 @@ In order to query a database first go to the "Connections" tab and configure a c
 
 The following database systems are currently supported. They can be accessed on premise or in the cloud:
 
-- Microsoft SQL Server
-- Mysql
-- Mariadb
-- Mongodb
+- Cassandra
+- MySql
+- MongoDB
 - Postgres
-- Cosmosdb
+- Microsoft SQL Server
+- MariaDB
 
 <p></p>
 <div align="center"><img src="/images/query_1.png" width="100%" height="100%" class="welcome_ui_img_center" /></div>

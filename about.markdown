@@ -34,7 +34,7 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
   - Microsoft SQL Server
   - MariaDB
 
-**Roadmap for the FREE version:**
+**Roadmap for the Free version:**
 
 - Oracle database connector
 - Undo feature in script editors using keyboard shortcuts (i.e: CTRL+Z)
@@ -44,15 +44,27 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
 
 For features requests or to report issues and bugs:
 
-- If you have a github account please visit the following page: **[https://vquery-free/issues](https://vquery-free/issues)**
-- otherwise feel free to send an email to: **vquery@outlook.com**
+- If you have a github account please visit the following page: [https://vquery-free/issues](https://vquery-free/issues)
+- otherwise feel free to send an email to: *vquery@outlook.com*
 
 **If you are interested in learning more about vQuery you can use the links below:**
 
-- My email: **laurent.esingle1@outlook.com**
+- My email: *laurent.esingle1@outlook.com*
 
-- My developer page on Github: **[https://github.com/LaurentEsingle](https://github.com/LaurentEsingle)**
+- My developer page on Github: [https://github.com/LaurentEsingle](https://github.com/LaurentEsingle)
 
-- Twitter: **[@v_Query](https://twitter.com/vQuery_Free)**
+- Twitter: [@v_Query](https://twitter.com/vQuery_Free)
 
-- To see vQuery in action please visit: **[vQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)**
+- To see vQuery in action please visit: [vQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
+
+**Credits**
+
+This application uses open source components. A few of them are listed below:
+
+- jupyter notebook:  [https://jupyter.org/](https://jupyter.org/)
+- Voila:  [https://github.com/voila-dashboards/voila](https://github.com/voila-dashboards/voila)
+- ipymonaco:  [https://sodennis.github.io/ipymonaco/](https://sodennis.github.io/ipymonaco/)
+- ipyaggrid:  [https://dgothrek.gitlab.io/ipyaggrid/](https://dgothrek.gitlab.io/ipyaggrid/)
+- qgrid:  [https://github.com/quantopian/qgrid](https://github.com/quantopian/qgrid)
+- plotly:  [https://plotly.com/python/plotly-express/](https://plotly.com/python/plotly-express/)
+- dask:  [https://dask.org/](https://dask.org/)

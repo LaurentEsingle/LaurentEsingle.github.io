@@ -29,7 +29,7 @@ The data tab has many features including:
 
 The main approach of vQuery is to allow the user to query big or small data sources and extract a small amount of data (filtered or aggregated) that will give them the insights they are looking for.
 
-They can extract data from local or network files, and Big Data repositories. They can do so through a no-code interface or scripting.
+They can extract data from local or network files, and Big Data repositories. They can do so through a no-code interface or scripting(python).
 
 vQuery support several file types as well as protocols to access data, on Premise or in the Cloud. 
 
