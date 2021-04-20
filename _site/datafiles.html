@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Working with data | vQuery Free Version</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Working with data" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease. A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers. It also provides a no-code interface for non-technical users." />
+<meta property="og:description" content="vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease. A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers. It also provides a no-code interface for non-technical users." />
+<link rel="canonical" href="http://localhost:4000/datafiles.html" />
+<meta property="og:url" content="http://localhost:4000/datafiles.html" />
+<meta property="og:site_name" content="vQuery Free Version" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Working with data" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/datafiles.html","headline":"Working with data","description":"vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease. A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers. It also provides a no-code interface for non-technical users.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                vQuery Free Version
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <a href="/databases/" class="navbar-item ">Databases</a>
+                    
+                
+                    
+                    <a href="/datafiles/" class="navbar-item ">Big data</a>
+                    
+                
+                    
+                    <a href="/charts/" class="navbar-item ">Charts</a>
+                    
+                
+                    
+                    <a href="/download/" class="navbar-item ">Download</a>
+                    
+                
+                    
+                    <a href="/about/" class="navbar-item ">about</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-12">
+                    
+                    
+                    
+                    
+                    
+<div class="content">
+    <h1 id="working-with-data">Working with data</h1>
+
+<p><strong>Note:</strong> <em>for a Product tour and instructional videos please visit:</em> <a href="https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ">vQuery Youtube Channel</a></p>
+
+<h3 id="overview">Overview</h3>
+
+<p>vQuery provides the ability to:</p>
+
+<ul>
+  <li>Query files using SQL language</li>
+  <li>Read files from various sources: local filesystem, network, web, ftp, cloud(Azure, Amazon, Google)</li>
+  <li>Connect to remote Dask clusters to process data</li>
+  <li>Merge files</li>
+  <li>Export data to several file formats</li>
+  <li>Export data to a remote database</li>
+  <li>Upload files to your workspace</li>
+  <li>Download files from your workspace</li>
+</ul>
+
+<p>The data tab has many features including:</p>
+
+<ul>
+  <li>Query data using a no-code interface, SQL or Pandas Dataframes</li>
+  <li>Explore data using provided statistics and histograms</li>
+  <li>Manipulate data</li>
+  <li>Save data</li>
+</ul>
+
+<p>The main approach of vQuery is to allow the user to query big or small data sources and extract a small amount of data (filtered or aggregated) that will give them the insights they are looking for.</p>
+
+<p>They can extract data from local or network files, and Big Data repositories. They can do so through a no-code interface or scripting(python).</p>
+
+<p>vQuery support several file types as well as protocols to access data, on Premise or in the Cloud.</p>
+
+<p>The following file formats are currently supported: csv, parquet, json, hdf5, orc and excel.</p>
+
+<p>Several protocols - wich are used to access files in various repositories either local or remote - are supported including: s3fs (amazon), adlfs (Azure), gcs/gs (Google), hdfs (Hadoop), https, etc.</p>
+
+<h3 id="workflow">Workflow</h3>
+
+<p><strong>When a file is opened, the application does not necessarily load all its data into memory.</strong></p>
+
+<p>The amount of data loaded in memory depends on the <code class="language-plaintext highlighter-rouge">Sample Rows</code> setting. This settings determine how many rows will be loaded into memory.</p>
+
+<p>For example, if a CSV file has 3 million rows and the <code class="language-plaintext highlighter-rouge">Sample Rows</code> setting is set to 10 thousands rows, only that number of rows will be loaded into memory. Which means only 10000 rows of data will be browsable through the User Interface.</p>
+
+<p>The amount of data displayed in the data grid of the user interface at any given time will depend on the <code class="language-plaintext highlighter-rouge">Rows per page</code> setting. If the <code class="language-plaintext highlighter-rouge">Rows per page</code> is set to 100 then a 100 rows will be visible on the user interface. The user can navigate the results using pagination buttons.</p>
+
+<p>In summary:
+<code class="language-plaintext highlighter-rouge">File (3000000 rows) --&gt; Application memory (10000 rows) --&gt; User Interface (100 rows at a time)</code></p>
+
+<p>File sizes limit, <code class="language-plaintext highlighter-rouge">Sample Rows</code> and <code class="language-plaintext highlighter-rouge">Rows per page</code> parameters are adjustable in the settings.</p>
+
+<p><strong>So how can a user extract the information he wants if only a sample of the file is loaded into the application?</strong></p>
+
+<p>First of all, in the previous example, if <code class="language-plaintext highlighter-rouge">Sample Rows</code> is set to 3 millions, then the whole file will be loaded into memory. However this is not always possible as files sizes can be larger that the memory available to the application.</p>
+
+<p>The suggested approach, is to filter or aggregate data so that they can fit in memory and vQuery has been designed around that principle.</p>
+
+<p>Let’s suppose our file contains 3 millions rows of information related to cars sold during the last 10 years in France. Since vQuery allows to directly query the file, the user could issue a query to select only the information he needs. For example:</p>
+
+<p><code class="language-plaintext highlighter-rouge">information about cars sold to married couples aged over 50 in Laval city during the first 3 months of year 2016</code></p>
+
+<p>Such a query would return a small subset of the file - i.e: 5000 rows - which could not only fit in the application memory, but also match the information the user was looking for in its entirety.</p>
+
+<p>Aggregations usually return even a smaller number of rows, which in most cases is what the user wats: a meaningful subset of a large set of data that can easily be processed and displayed with charts or tables.</p>
+
+<p><strong>Loading, exploration, data manipulation</strong></p>
+
+<p>The user does not always know exactly what information a given file contains and how that information is formatted. He often goes through the sequence of steps described below:</p>
+
+<ul>
+  <li>
+    <p><em>Data exploration:</em> when a file is open the first time (and only a sample is loaded into memory), the user - with the help of the data exploration panel - has access to statistical and datatypes information that can give him a good idea of the content of the whole file.
+He can issue several queries to confirm his assumptions even if he cannot load the whole file in memory. Each time he issues a query, that query is directly executed again the data file.</p>
+  </li>
+  <li>
+    <p><em>Data manipulation:</em> Once the data filtered/aggregated fits in memory, this enables numerous possibilities of data manipulation: change data formatting, clean and edit data, delete duplicates, update values, change column data type, further aggregate/filter and more.</p>
+  </li>
+  <li>
+    <p><em>Save data:</em> When the data manipulation is completed, the user can save the data in his workspace for later use.</p>
+  </li>
+</ul>
+
+<p></p>
+<div align="center"><img src="/images/files.png" width="100%" height="100%" class="welcome_ui_img_center" /></div>
+
+<p></p>
+<div align="center"><img src="/images/data_3.png" width="100%" height="100%" class="welcome_ui_img_center" /></div>
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/LaurentEsingle" class="link">© Laurent Esingle - 2021</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
