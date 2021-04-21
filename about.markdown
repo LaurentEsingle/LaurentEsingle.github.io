@@ -59,7 +59,7 @@ For features requests or to report issues and bugs:
 
 **Credits**
 
-This application uses open source components. A few of them are listed below:
+This application uses open source frameworks and components. A few of them are listed below:
 
 - jupyter notebook:  [https://jupyter.org/](https://jupyter.org/)
 - Voila:  [https://github.com/voila-dashboards/voila](https://github.com/voila-dashboards/voila)
