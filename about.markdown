@@ -40,7 +40,7 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
 - Undo feature in script editors using keyboard shortcuts (i.e: CTRL+Z)
 - Code completion in script editors
 
-**vQuery-Free support**
+**vQuery-Free support:**
 
 For features requests or to report issues and bugs:
 
