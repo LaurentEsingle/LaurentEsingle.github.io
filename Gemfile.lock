@@ -270,6 +270,7 @@ PLATFORMS
 DEPENDENCIES
   bulma-clean-theme
   github-pages (~> 214)
+  jekyll (~> 3.9.0)
   jekyll-feed (~> 0.12)
   tzinfo (~> 1.2)
   tzinfo-data
