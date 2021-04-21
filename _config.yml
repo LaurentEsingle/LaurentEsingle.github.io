@@ -32,8 +32,14 @@ footer_menu: footer_links
 
 # Build settings
 # theme: minima
+
+##### To test locally
 #theme: bulma-clean-theme
+
+#### to publish to github
 remote_theme: chrisrhymes/bulma-clean-theme
+
+
 plugins:
   - jekyll-feed
 
