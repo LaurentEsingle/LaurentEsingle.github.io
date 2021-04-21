@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Big Data
+subtitle: working with files
+permalink: /datafiles/
 hide_hero: true
 ---
 

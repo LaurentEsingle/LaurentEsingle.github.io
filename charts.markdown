@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Charts
+subtitle: working with charts
+permalink: /charts/
 hide_hero: true
 ---
 

@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Databases
+subtitle: working with databases
+permalink: /databases/
 hide_hero: true
 ---
 

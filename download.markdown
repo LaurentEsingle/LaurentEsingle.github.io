@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Download
+subtitle: Get vQuery-Free
+permalink: /download/
 hide_hero: true
 ---
 
