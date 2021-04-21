@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   vQuery-Free. The free version of vQuery for querying databases, big datafiles and generate charts with ease.
   A convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers.
   It also provides a no-code interface for non-technical users.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vqueryfree.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: v_Query
 github_username:  LaurentEsingle
