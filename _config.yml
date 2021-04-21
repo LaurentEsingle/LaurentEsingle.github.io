@@ -37,8 +37,8 @@ footer_menu: footer_links
 #theme: bulma-clean-theme
 
 #### to publish to github
-remote_theme: chrisrhymes/bulma-clean-theme
-
+#remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: LaurentEsingle/bulma-clean-theme
 
 plugins:
   - jekyll-feed
