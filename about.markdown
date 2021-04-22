@@ -44,7 +44,7 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
 
 For features requests or to report issues and bugs:
 
-- If you have a github account please visit the following page: [https://vqueryfree.com/issues](https://vqueryfree.com/issues)
+- If you have a github account please visit the following page: [https://vqueryfree.com/issues](https://github.com/LaurentEsingle/LaurentEsingle.github.io/issues)
 - otherwise feel free to send an email to: *vquery@outlook.com*
 
 **If you are interested in learning more about vQuery you can use the links below:**
