@@ -8,7 +8,7 @@ hide_hero: true
 
 # vQuery installation and setup
 
-**Note:** *for a Product tour and instructional videos please visit:* [vQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
+**License Notice:** vQuery-free as it names implies is free to use. Please read the license terms here: [https://vqueryfree.com/license/](https://vqueryfree.com/license/)
 
 <br>
 
