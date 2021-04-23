@@ -8,7 +8,7 @@ hide_hero: true
 
 # vQuery installation and setup
 
-**License Notice:** vQuery-free as it names implies is free to use. Please read the license terms here: [https://vqueryfree.com/license/](https://vqueryfree.com/license/)
+**License Notice:** vQuery-free as it names implies is free to use. Before downloading, please read the license terms and restrictions here: [https://vqueryfree.com/license/](https://vqueryfree.com/license/)
 
 <br>
 
