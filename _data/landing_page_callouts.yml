@@ -16,7 +16,7 @@ items:
     description: >
       Access data using a no-code interface, pandas or SQL
 
-      Several file formats and protocols are available
+      Several file formats and protocols are supported
     call_to_action_name: Learn more
     call_to_action_link: /datafiles/
   - title: Charts
