@@ -27,4 +27,4 @@ For more information about the features of the free version please visit "About"
 
 <br>
 
-<div align="center"><b>For a Product tour and instructional videos please visit:&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ">veeQuery Youtube Channel</a></b></div>
+<div align="center"><b>For a Product tour and instructional videos please visit:&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCRWEvd5EFlhmOw02PEsIITA">veeQuery Youtube Channel</a></b></div>

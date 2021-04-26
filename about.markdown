@@ -55,7 +55,7 @@ For features requests or to report issues and bugs:
 
 - Twitter: [@veeQuery](https://twitter.com/veeQuery)
 
-- To see veeQuery in action please visit: [veeQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
+- To see veeQuery in action please visit: [veeQuery Youtube Channel](https://www.youtube.com/channel/UCRWEvd5EFlhmOw02PEsIITA)
 
 **Credits**
 

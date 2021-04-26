@@ -8,7 +8,7 @@ hide_hero: true
 
 # Generating charts
 
-**Note:** *for a Product tour and instructional videos please visit:* [veeQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
+**Note:** *for a Product tour and instructional videos please visit:* [veeQuery Youtube Channel](https://www.youtube.com/channel/UCRWEvd5EFlhmOw02PEsIITA)
 
 ### Overview
 
