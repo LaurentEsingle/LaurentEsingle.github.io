@@ -36,3 +36,6 @@ The following database systems are currently supported. They can be accessed on 
 
 <p></p>
 <div align="center"><img src="/images/Connections.png" width="100%" height="100%" class="welcome_ui_img_center" /></div>
+
+<p></p>
+<div align="center"><img src="/images/mongo.png" width="100%" height="100%" class="welcome_ui_img_center" /></div>

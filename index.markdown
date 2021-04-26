@@ -23,7 +23,7 @@ This version of veeQuery is <b>free</b>. The container image can be downloaded f
 For more information about the features of the free version please visit "About" tab.
 </div>
 <p></p>
-<div align="center"><img src="/images/vquery_welcome1_flat.png" width="75%" height="75%" class="welcome_ui_img_center" /></div>
+<div align="center"><img src="/images/vquery_welcome_1_flat.png" width="75%" height="75%" class="welcome_ui_img_center" /></div>
 
 <br>
 
