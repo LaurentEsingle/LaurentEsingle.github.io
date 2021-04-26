@@ -1,18 +1,18 @@
 ---
 layout: page
 title: Download
-subtitle: Get vQuery-Free
+subtitle: Get veeQuery-Free
 permalink: /download/
 hide_hero: true
 ---
 
-# vQuery installation and setup
+# veeQuery installation and setup
 
-**License Notice:** vQuery-free as it names implies is free to use. Before downloading, please read the license terms and restrictions here: [https://vqueryfree.com/license/](https://vqueryfree.com/license/)
+**License Notice:** veeQuery-free as it names implies is free to use. Before downloading, please read the license terms and restrictions here: **[https://vqueryfree.com/license/](https://vqueryfree.com/license/)**
 
 <br>
 
-vQuery runs in a docker container. A container platform is needed to host the application, such as docker or kubernetes.  
+veeQuery runs in a docker container. A container platform is needed to host the application, such as docker or kubernetes.  
 
 Get the image from dockerhub: ***Link will be available starting Sunday, April 25th, 2021***
 
@@ -20,7 +20,7 @@ or
 
 Download the image with the following docker command: ***Link will be available starting Sunday, April 25th, 2021***
 
-There are many ways to set up vQuery, especially in an enterprise context where security, high availability and scalability are needed. In this guide we will focus on the installation of the free version of vQuery which is more suited for personal use. For more information on the differences between the free version and the full version please visit "About" tab.
+There are many ways to set up veeQuery, especially in an enterprise context where security, high availability and scalability are needed. In this guide we will focus on the installation of the free version of veeQuery which is more suited for personal use. For more information on the differences between the free version and the full version please visit "About" tab.
 
 **Requirements:**
 
@@ -33,11 +33,11 @@ There are many ways to set up vQuery, especially in an enterprise context where 
 
 - Download and install Docker
 - Configure Docker to host Linux containers (if installing on Windows)
-- download vQuery image:   ***Link will be available starting Sunday, April 25th, 2021***
+- download veeQuery image:   ***Link will be available starting Sunday, April 25th, 2021***
 
-**Configure and run vQuery:**
+**Configure and run veeQuery:**
 
-vQuery runs on port 8866 by default.
+veeQuery runs on port 8866 by default.
 
 The following volumes can be mounted:
 
@@ -46,13 +46,13 @@ The following volumes can be mounted:
 - Additional volumes can be mounted as shares (read only):
   - ```<directory_or_network_share_on_the_host>:/shares/<share_name>```
 
-If you want to quickly test vQuery you can run:
+If you want to quickly test veeQuery you can run:
 
-- ```docker run --name vquery-free -d vquery/vquery-free:latest```
+- ```docker run --name veeQuery-free -d vQuery/veeQuery-free:latest```
 
-**Connect to vQuery:**
+**Connect to veeQuery:**
 
-How you connect to vQuery will mostly depend on the location of the machine running vQuery container. In the simplest scenario - running the container on your computer - you can acess the application at the following url:
+How you connect to veeQuery will mostly depend on the location of the machine running veeQuery container. In the simplest scenario - running the container on your computer - you can acess the application at the following url:
 
 ```http://localhost:8866/```
 

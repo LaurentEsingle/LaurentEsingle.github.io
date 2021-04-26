@@ -8,11 +8,11 @@ hide_hero: true
 
 # Working with data
 
-**Note:** *for a Product tour and instructional videos please visit:* [vQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
+**Note:** *for a Product tour and instructional videos please visit:* [veeQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
 
 ### Overview
 
-vQuery provides the ability to:
+veeQuery provides the ability to:
 
 - Query files using SQL language
 - Read files from various sources: local filesystem, network, web, ftp, cloud(Azure, Amazon, Google)
@@ -30,11 +30,11 @@ The data tab has many features including:
 - Manipulate data
 - Save data
 
-The main approach of vQuery is to allow the user to query big or small data sources and extract a small amount of data (filtered or aggregated) that will give them the insights they are looking for.
+The main approach of veeQuery is to allow the user to query big or small data sources and extract a small amount of data (filtered or aggregated) that will give them the insights they are looking for.
 
 They can extract data from local or network files, and Big Data repositories. They can do so through a no-code interface or scripting(python).
 
-vQuery support several file types as well as protocols to access data, on Premise or in the Cloud. 
+veeQuery support several file types as well as protocols to access data, on Premise or in the Cloud. 
 
 The following file formats are currently supported: csv, parquet, json, hdf5, orc and excel.
 
@@ -59,9 +59,9 @@ File sizes limit, ```Sample Rows``` and ```Rows per page``` parameters are adjus
 
 First of all, in the previous example, if ```Sample Rows``` is set to 3 millions, then the whole file will be loaded into memory. However this is not always possible as files sizes can be larger that the memory available to the application.
 
-The suggested approach, is to filter or aggregate data so that they can fit in memory and vQuery has been designed around that principle.
+The suggested approach, is to filter or aggregate data so that they can fit in memory and veeQuery has been designed around that principle.
 
-Let's suppose our file contains 3 millions rows of information related to cars sold during the last 10 years in France. Since vQuery allows to directly query the file, the user could issue a query to select only the information he needs. For example:
+Let's suppose our file contains 3 millions rows of information related to cars sold during the last 10 years in France. Since veeQuery allows to directly query the file, the user could issue a query to select only the information he needs. For example:
 
 ```information about cars sold to married couples aged over 50 in Laval city during the first 3 months of year 2016```
 

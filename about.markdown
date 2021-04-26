@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About vQuery
+title: About veeQuery
 subtitle: By Laurent Esingle
 permalink: /about/
 ---
@@ -18,10 +18,10 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
 - multiple users
 - SSL configuration
 - Ability to configure and connect to a data server for better scalability (process larger sets of data):
-  - Under the hood vQuery uses DASK, a Python parallel computing framework that enables Big data analytics
-  - The full version has a companion container image (vQuery-data) which acts as a data server
-  - With the Full version of vQuery, the application server (vQuery container image) can be setup on one machine and the data server (vQuery-data container image) on another
-  - Whith the Free version, everything is integrated in a single container image (vQuery-free), which limits its ability to scale. Consequently the following limitations are set:
+  - Under the hood veeQuery uses DASK, a Python parallel computing framework that enables Big data analytics
+  - The full version has a companion container image (veeQuery-data) which acts as a data server
+  - With the Full version of veeQuery, the application server (veeQuery container image) can be setup on one machine and the data server (veeQuery-data container image) on another
+  - Whith the Free version, everything is integrated in a single container image (veeQuery-free), which limits its ability to scale. Consequently the following limitations are set:
     - File size limit for CSV, Parquet, ORC, JSON, HDF5:  10Gb
     - File size limit for Excel: 2GB
     - Maximum size of sample data:  100000 rows (see "Big data" tab for more information)
@@ -40,22 +40,22 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
 - Undo feature in script editors using keyboard shortcuts (i.e: CTRL+Z)
 - Code completion in script editors
 
-**vQuery-Free support:**
+**veeQuery-Free support:**
 
 For features requests or to report issues and bugs:
 
 - If you have a github account please visit the following page: [https://vqueryfree.com/issues](https://github.com/LaurentEsingle/LaurentEsingle.github.io/issues)
-- otherwise feel free to send an email to: *vquery@outlook.com*
+- otherwise feel free to send an email to: *veeQuery@outlook.com*
 
-**If you are interested in learning more about vQuery you can use the links below:**
+**If you are interested in learning more about veeQuery you can use the links below:**
 
 - My email: *laurent.esingle1@outlook.com*
 
 - My developer page on Github: [https://github.com/LaurentEsingle](https://github.com/LaurentEsingle)
 
-- Twitter: [@v_Query](https://twitter.com/vQuery_Free)
+- Twitter: [@veeQuery](https://twitter.com/veeQuery)
 
-- To see vQuery in action please visit: [vQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
+- To see veeQuery in action please visit: [veeQuery Youtube Channel](https://www.youtube.com/channel/UCrLNHFgHfw3P0eqKlPLpTwQ)
 
 **Credits**
 

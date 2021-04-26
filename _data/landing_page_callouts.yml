@@ -5,9 +5,7 @@ items:
     subtitle: On Premise or in the Cloud
     icon: fa-database
     description: >
-      vQuery comes with several connectors out of the box
-
-      You just have to setup your connection 
+      veeQuery comes with several connectors out of the box. You just have to setup your connection 
     call_to_action_name: Learn more
     call_to_action_link: /databases/
   - title: Big Data Files Query

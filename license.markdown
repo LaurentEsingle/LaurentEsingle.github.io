@@ -1,12 +1,12 @@
 ---
 layout: page
 title: License
-subtitle: vquery-free license terms
+subtitle: veeQuery-free license terms
 permalink: /license/
 hide_hero: true
 ---
 
-# vQuery-Free license terms
+# veeQuery-Free license terms
 
 <br>
 
