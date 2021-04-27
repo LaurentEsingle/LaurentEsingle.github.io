@@ -48,7 +48,7 @@ The following volumes can be mounted:
 
 If you want to quickly test veeQuery you can run:
 
-- ```docker run --name veeQuery-free -d vQuery/veeQuery-free:latest```
+- ```docker run --name veequery -d vquery/veequery-free:latest```
 
 **Connect to veeQuery:**
 
