@@ -14,11 +14,11 @@ hide_hero: true
 
 veeQuery runs in a docker container. A container platform is needed to host the application, such as docker or kubernetes.  
 
-Get the image from dockerhub: ***Link will be available starting Sunday, April 25th, 2021***
+Get the image from dockerhub: **[https://hub.docker.com/r/vquery/veequery-free](https://hub.docker.com/r/vquery/veequery-free)**
 
 or
 
-Download the image with the following docker command: ***Link will be available starting Sunday, April 25th, 2021***
+Download the image with the following docker command: **docker pull vquery/veequery-free**
 
 There are many ways to set up veeQuery, especially in an enterprise context where security, high availability and scalability are needed. In this guide we will focus on the installation of the free version of veeQuery which is more suited for personal use. For more information on the differences between the free version and the full version please visit "About" tab.
 
@@ -33,7 +33,7 @@ There are many ways to set up veeQuery, especially in an enterprise context wher
 
 - Download and install Docker
 - Configure Docker to host Linux containers (if installing on Windows)
-- download veeQuery image:   ***Link will be available starting Sunday, April 25th, 2021***
+- download veeQuery image:   **docker pull vquery/veequery-free**
 
 **Configure and run veeQuery:**
 
@@ -50,6 +50,8 @@ If you want to quickly test veeQuery you can run:
 
 - ```docker run --name veequery -d vquery/veequery-free:latest```
 
+It is important to map a volume as you may lose your data (data files, queries, connections, credentials) if the container is destroyed.
+
 **Connect to veeQuery:**
 
 How you connect to veeQuery will mostly depend on the location of the machine running veeQuery container. In the simplest scenario - running the container on your computer - you can acess the application at the following url:
@@ -57,5 +59,3 @@ How you connect to veeQuery will mostly depend on the location of the machine ru
 ```http://localhost:8866/```
 
 When connecting to the URL for the first time, you will be prompted to set a new password for the admin user. If you did not map a local folder you will be greeted by a warning asking you to do so.
-
-It is important to map a volume as you may lose your data (data files, queries, connections, credentials) if the container is destroyed.

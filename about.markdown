@@ -68,3 +68,4 @@ This application uses open source frameworks and components. A few of them are l
 - qgrid:  [https://github.com/quantopian/qgrid](https://github.com/quantopian/qgrid)
 - plotly:  [https://plotly.com/python/plotly-express/](https://plotly.com/python/plotly-express/)
 - dask:  [https://dask.org/](https://dask.org/)
+- pagination submodule: James Morris [http://jmoz.co.uk](http://jmoz.co.uk)
