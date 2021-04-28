@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About veeQuery
-subtitle: By Laurent Esingle
+subtitle: A web application for querying Databases and Big Data files
 permalink: /about/
 ---
 

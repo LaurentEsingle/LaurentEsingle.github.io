@@ -8,7 +8,7 @@ hide_hero: true
 
 # veeQuery installation and setup
 
-**License Notice:** veeQuery-free as it names implies is free to use. Before downloading, please read the license terms and restrictions here: **[https://vqueryfree.com/license/](https://vqueryfree.com/license/)**
+**License Notice:** veeQuery-free as it names implies is free to use. Please read license terms and restrictions here: **[https://vqueryfree.com/license/](https://vqueryfree.com/license/)**
 
 <br>
 
