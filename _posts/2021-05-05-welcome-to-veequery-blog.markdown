@@ -39,5 +39,8 @@ To get in touch with veeQuery community and get some help, please join our commu
 To submit bugs and issues, you can either join our community server mentioned above or visit the following link: **[veeQuery-issues-tracking](https://github.com/LaurentEsingle/LaurentEsingle.github.io/issues)**
 
 <br>
-**About the author:** [https://github.com/LaurentEsingle](https://github.com/LaurentEsingle)
+**About the author:** 
+
+- Github profile: [https://github.com/LaurentEsingle](https://github.com/LaurentEsingle)
+- Twitter: [@veeQuery](https://twitter.com/veeQuery)
 

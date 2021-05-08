@@ -45,6 +45,7 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
 For features requests or to report issues and bugs:
 
 - If you have a github account please visit the following page: [https://vqueryfree.com/issues](https://github.com/LaurentEsingle/LaurentEsingle.github.io/issues)
+- To get in touch with veeQuery community and get some help, please join our community server: [veeQuery-Discord-Server](https://discord.gg/chDcePajyV)
 - otherwise feel free to send an email to: *veeQuery@outlook.com*
 
 **If you are interested in learning more about veeQuery you can use the links below:**
