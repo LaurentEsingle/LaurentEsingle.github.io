@@ -24,7 +24,7 @@ The application is able to extract data from Data sources such as SQL Databases 
 
 Most of these tasks can be done without writing a single line of script, thanks to no-code GUI.
 
-For those with some knowledge on Python, SQL or Pandas, they can achieve a lot more thanks to the flexibility and extensibility offered by the script editors.
+For those with some knowledge on Python, SQL or Pandas, they can achieve a lot more thanks to the flexibility and extensibility offered by the code editors.
 
 It is also possible to generate scripts from no-code GUI interactions, which can be a great way to learn how to use Pandas Dataframe library as well as Plotly visualization library.
 

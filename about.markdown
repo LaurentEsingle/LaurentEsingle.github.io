@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About veeQuery
-subtitle: A web application for querying Databases and Big Data files
+subtitle: A web application for Databases & Big Data query, Data Exploration, Data Analysis and Data visualization
 permalink: /about/
 ---
 
@@ -13,7 +13,7 @@ But with time I added more features and decided to make it available to others.
 
 This free version of the application is easy to deploy, on a single machine (i.e Laptop) but wih one application user only.
 
-The full version is more suited for enterprise/multi-users deployment scenarios as it includes the following additional features:
+The full version - not available yet - is more suited for enterprise/multi-users deployment scenarios as it includes the following additional features:
 
 - multiple users
 - SSL configuration
@@ -24,8 +24,8 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
   - Whith the Free version, everything is integrated in a single container image (veeQuery-free), which limits its ability to scale. Consequently the following limitations are set:
     - File size limit for CSV, Parquet, ORC, JSON, HDF5:  10Gb
     - File size limit for Excel: 2GB
-    - Maximum size of sample data:  100000 rows (see "Big data" tab for more information)
-    - Maximum size of data retrieved per query from a database: 100000
+    - Maximum size of sample data:  100000 rows (see "Big data" section for more information)
+    - Maximum size of data retrieved per query from a database: 100000 rows
 - Databases connectors for the free version are limited to:
   - Cassandra
   - MySql
@@ -37,8 +37,8 @@ The full version is more suited for enterprise/multi-users deployment scenarios 
 **Roadmap for the Free version:**
 
 - Oracle database connector
-- Undo feature in script editors using keyboard shortcuts (i.e: CTRL+Z)
-- Code completion in script editors
+- Undo feature in code editors using keyboard shortcuts (i.e: CTRL+Z)
+- Code completion in code editors
 
 **veeQuery-Free support:**
 

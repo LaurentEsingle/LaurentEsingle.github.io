@@ -15,17 +15,20 @@ callouts: landing_page_callouts
 <div align="center"><h1>veeQuery</h1></div>
 
 <div align="center">
-veeQuery is a web application for querying databases and files, exploring data, manipulating data, creating charts and exporting data to other systems.<br>
+veeQuery is a web application for databases and big files query, data exploration, data analysis, and data visualization.<br>
 veeQuery runs in a container and can be easily deployed and scaled up. It can be set up on a laptop, a server or multi-server platform.<br><br>
 It is a convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers.<br>
 It also provides a no-code interface for non-technical users.<br><br>
 <b>This version of veeQuery is free.</b><br>
-The container image can be downloaded from Docker hub.<br>
-For more information about the features of the free version please visit "About" tab.
+To download the application please visit our <b><a href="https://vqueryfree.com/download/">Download</a></b> section.<br>
+For more information about the features of the free version please visit <b><a href="https://vqueryfree.com/about/">About</a></b> section.<br>
+For specific use cases and HowTos, please visit our <b><a href="https://vqueryfree.com/blog/">Blog</a></b> section.<br>
 </div>
 <p></p>
 <div align="center"><img src="/images/vquery_welcome_1_flat.png" width="75%" height="75%" class="welcome_ui_img_center" /></div>
 
 <br>
 
-<div align="center"><b>For a Product tour and instructional videos please visit:&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCRWEvd5EFlhmOw02PEsIITA">veeQuery Youtube Channel</a></b></div>
+<div align="center"><b>For a Product tour and instructional videos please visit:&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCRWEvd5EFlhmOw02PEsIITA">veeQuery-Youtube-Channel</a></b></div>
+
+<div align="center"><b>To get in touch with veeQuery community and get some help, please join our&nbsp;&nbsp;<a href="https://discord.gg/chDcePajyV">veeQuery-Discord-Server</a></b></div>

@@ -14,9 +14,8 @@ hide_hero: true
 
 veeQuery provides the ability to:
 
-- Query files using SQL language
+- Perform Data Exploration and Data Analysis tasks
 - Read files from various sources: local filesystem, network, web, ftp, cloud(Azure, Amazon, Google)
-- Connect to remote Dask clusters to process data
 - Merge files
 - Export data to several file formats
 - Export data to a remote database
@@ -25,8 +24,10 @@ veeQuery provides the ability to:
 
 The data tab has many features including:
 
-- Query data using a no-code interface, SQL or Pandas Dataframes
-- Explore data using provided statistics and histograms
+- Query using using a no-code interface
+- Query files using SQL
+- Query files using a python code editor and Pandas library
+- Quickly Explore data using automatically generated statistics and histograms
 - Manipulate data
 - Save data
 
@@ -69,16 +70,16 @@ Such a query would return a small subset of the file - i.e: 5000 rows - which co
 
 Aggregations usually return even a smaller number of rows, which in most cases is what the user wats: a meaningful subset of a large set of data that can easily be processed and displayed with charts or tables.
 
-**Loading, exploration, data manipulation**
+**Data Exploration, Analysis and Manipulation**
 
 The user does not always know exactly what information a given file contains and how that information is formatted. He often goes through the sequence of steps described below:
 
 - *Data exploration:* when a file is open the first time (and only a sample is loaded into memory), the user - with the help of the data exploration panel - has access to statistical and datatypes information that can give him a good idea of the content of the whole file.
 He can issue several queries to confirm his assumptions even if he cannot load the whole file in memory. Each time he issues a query, that query is directly executed again the data file.
 
-- *Data manipulation:* Once the data filtered/aggregated fits in memory, this enables numerous possibilities of data manipulation: change data formatting, clean and edit data, delete duplicates, update values, change column data type, further aggregate/filter and more.
+- *Data Analysis and manipulation:* Once the data filtered/aggregated fits in memory, this enables numerous possibilities of data manipulation: change data formatting, clean and edit data, delete duplicates, update values, change column data type, further aggregate/filter and more.
 
-- *Save data:* When the data manipulation is completed, the user can save the data in his workspace for later use.
+- *User workspace:* When the data manipulation is completed, the user can save the data in his workspace for later use.
 
 <p></p>
 <div align="center"><img src="/images/files.png" width="100%" height="100%" class="welcome_ui_img_center" /></div>
