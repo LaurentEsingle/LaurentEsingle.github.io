@@ -5,7 +5,7 @@ subtitle: Learn how veeQuery compares to a notebook
 author: Laurent Esingle
 date: 2021-05-10 19:30:00
 categories: general
-description: "features comparison between veeQuery and a notebook"
+description: "Features comparison between veeQuery and a notebook"
 published: false
 canonical_url: https://vqueryfree.com/howto/2021/05/09/mongodb-data-analyis-and-visualization.html
 

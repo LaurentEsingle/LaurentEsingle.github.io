@@ -19,6 +19,20 @@ veeQuery is a web application for databases and big files query, data exploratio
 veeQuery runs in a container and can be easily deployed and scaled up. It can be set up on a laptop, a server or multi-server platform.<br><br>
 It is a convenient tool for Data Analysts, Data Engineers, Business Analysts and Developers.<br>
 It also provides a no-code interface for non-technical users.<br><br>
+
+In a way, veeQuery is an enhanced notebook (and it truly is at it's core).<br>
+Compared to a traditional notebook, it speeds up data exploration, data analysis and data visualization tasks.
+
+<br><br>
+<b>Main features:</b><br>
+Easy connection to databases, with a SQL query editor (cassandra, mongodb, SQL server, Postgres, Mysql and more)<br>
+Easy file access and management (including big data files formats and files in the cloud)<br>
+Automatic generation of essential statistics for data exploration<br>
+Three ways to achieve data analysis (no-code interface, Python/pandas code editor, SQL)<br>
+Two ways to achieve data visualization tasks (no-code interface, Python code editor)<br>
+Ability to save data in several formats and export processed data to remote databases
+
+<br><br>
 <b>This version of veeQuery is free.</b><br>
 To download the application please visit our <b><a href="https://vqueryfree.com/download/">Download</a></b> section.<br>
 For more information about the features of the free version please visit <b><a href="https://vqueryfree.com/about/">About</a></b> section.<br>
