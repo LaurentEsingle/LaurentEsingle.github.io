@@ -28,9 +28,32 @@ Now let's look in details how veeQuery might help you.
 
 #### Extracting data from databases
 
-**With traditional notebook**
+**With a traditional notebook**
 
 - You need to make sure the target database driver is installed in your system
 - Then define the database connection, issue your query and display the results
 
 The code might look like this:
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_1.png" width="85%" height="85%" /></div>
+<p></p>
+
+**With veequery**
+
+Once you have registered your connection, it is easy to:
+
+- connect to the database
+- browse tables content
+- issue queries
+- get the result nicely displayed in a grid
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_2.png" width="85%" height="85%" /></div>
+<p></p>
+
+The next step is to save database results into a file that can then be use later for data analysis and data visualization:
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_3.png" width="85%" height="85%" /></div>
+<p></p>
