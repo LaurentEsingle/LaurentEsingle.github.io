@@ -66,7 +66,7 @@ You might have to read a single file or a group of files.
 
 **With a traditional notebook**
 
-Your code might look like this for a single file:
+The code might look like this for a single file:
 
 <p></p>
 <div align="left"><img src="/images/enhanced_notebook_4.png" width="85%" height="85%" /></div>
@@ -81,6 +81,7 @@ For a group of files (this is MUCH slower than with veeQuery):
 **With veequery**
 
 Although you can also write some code on the python editor to load a file, the fastest way with veeQuery is to simply select the file on the UI and open it.
+veeQuery offers the ability to load only a subset of the file's columns. This can significantly improve performance.
 
 For a single file:
 
@@ -106,7 +107,7 @@ Some of the steps during data exploration activity usually include:
 
 **With a traditional notebook**
 
-Your code might look like this:
+The code might look like this:
 
 <p></p>
 <div align="left"><img src="/images/enhanced_notebook_8.png" width="85%" height="85%" /></div>
@@ -148,7 +149,7 @@ Data preparation might include the following steps:
 
 **With a traditional notebook**
 
-Your code might look like this:
+The code might look like this:
 
 <p></p>
 <div align="left"><img src="/images/enhanced_notebook_14.png" width="85%" height="85%" /></div>
@@ -173,3 +174,13 @@ For advanced funtionality, a Python code editor is available.
 <p></p>
 
 #### Summarizing Data
+
+This is usually the step where we extract insights from the data. We perform some computation on the data that will reduce its size to a more meaningful subset.
+
+One way of doing this is to make aggregations.
+
+**With a traditional notebook**
+
+The code might look like this:
+
+List the top five storms with the highest magnitude per timezone that occurred during April-May period group by storm type (EVENT_TYPE).
