@@ -22,7 +22,7 @@ If you frequently use a notebook for coding activities such as data exploration,
 
 veeQuery can significantly increase your productivity by speeding up most task involved with the above mentioned activities.
 
-Although less flexible and versatile than a traditional notebook, it allows you to perform those activities within a frame that will suit most needs.
+Although less flexible and versatile than a traditional notebook, it allows you to perform those activities within a frame that suit most needs.
 
 Now let's look in details how veeQuery might help you.
 
@@ -57,3 +57,119 @@ The next step is to save database results into a file that can then be use later
 <p></p>
 <div align="left"><img src="/images/enhanced_notebook_3.png" width="85%" height="85%" /></div>
 <p></p>
+
+#### Reading Files
+
+To perform Data Exploration, Data preparation and Data Analysis you usually start by loading file data into memory.
+
+You might have to read a single file or a group of files.
+
+**With a traditional notebook**
+
+Your code might look like this for a single file:
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_4.png" width="85%" height="85%" /></div>
+<p></p>
+
+For a group of files (this is MUCH slower than with veeQuery):
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_5.png" width="85%" height="85%" /></div>
+<p></p>
+
+**With veequery**
+
+Although you can also write some code on the python editor to load a file, the fastest way with veeQuery is to simply select the file on the UI and open it.
+
+For a single file:
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_6.png" width="85%" height="85%" /></div>
+<p></p>
+
+For a group of files (this is MUCH faster with veeQuery as it uses Dask, a Python parallel computing under the hood):
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_7.png" width="85%" height="85%" /></div>
+<p></p>
+
+#### Data Exploration
+
+Some of the steps during data exploration activity usually include:
+
+- load a file in a dataset
+- get a sample of data
+- find out the number of columns and their data type
+- find out the number of rows
+- display basic statistics such as standard deviation, mean, unique count, frequency, etc.
+
+**With a traditional notebook**
+
+Your code might look like this:
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_8.png" width="85%" height="85%" /></div>
+<p></p>
+
+**With veequery**
+
+veeQuery automatically computes many statistics relevant to your dataset.
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_9.png" width="85%" height="85%" /></div>
+<p></p>
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_10.png" width="85%" height="85%" /></div>
+<p></p>
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_11.png" width="85%" height="85%" /></div>
+<p></p>
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_12.png" width="85%" height="85%" /></div>
+<p></p>
+
+#### Data Preparation
+
+Data preparation might include the following steps:
+
+- filtering data
+- Handling missing data
+- Changing data types
+- handling duplicates
+- Formating values
+- replacing values
+- removing and renaming columns
+- merging data
+- subsetting and sorting
+
+**With a traditional notebook**
+
+Your code might look like this:
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_14.png" width="85%" height="85%" /></div>
+<p></p>
+
+**With veequery**
+
+veeQuery provide a no-code interface for some of data cleaning activities. It is also possible to generate a script from the no-code interface for later use.
+
+For advanced funtionality, a Python code editor is available.
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_13.png" width="75%" height="75%" /></div>
+<p></p>
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_15.png" width="75%" height="75%" /></div>
+<p></p>
+
+<p></p>
+<div align="left"><img src="/images/enhanced_notebook_16.png" width="75%" height="75%" /></div>
+<p></p>
+
+#### Summarizing Data
