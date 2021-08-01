@@ -1,0 +1,23 @@
+To test  the site  locally:
+==========================
+
+bundle exec jekyll serve --livereload
+
+The above command will spawn a webserver on port 4000.
+
+To restore the Full version of the site
+=======================================
+- rename index.markdown to under_construction.markdown
+- rename index_old.markdown to index.markdown
+- rename _data/navigation_backup.yml to _data/navigation.yml
+- on hub.docker.com, under vquery profile, change veequery-free repository visibility from private to public
+- on Youtube:
+    - switch to veequery profile
+    - open Youtube Studio
+    - navigate to content
+        - change the visibility of the videos to public
+    - navigate to customization
+        - specify a video for: Channel trailer for people who haven't subscribed
+        - specify a video for: Featured video for returning subscribers
+        - once it is done click on the publish button on the top right corner 
+
